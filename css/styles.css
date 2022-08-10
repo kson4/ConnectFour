@@ -1,9 +1,17 @@
+.body {
+    background-color: white;
+}
+
 .grid {
     display: flex;
-    background-color: red;
     height: 800px;
     width: 800px;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 30px;
+}
+
+.cell {
+    border: 1px solid white;
 }
